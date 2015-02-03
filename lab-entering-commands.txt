@@ -8,7 +8,7 @@ Follow the instructions line-by-line.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
-
+//> < = Entry/Answer
 
 ==========
 1. Open Terminal.  Type:
@@ -16,9 +16,11 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
-
-
+>
+Applications	Downloads	Music		Public		VirtualBox VMs
+Desktop		Library		My Song.band	Sites		vms
+Documents	Movies		Pictures	Things
+<
 
 ==========
 2a. Type: 
@@ -26,21 +28,21 @@ Copy and paste the output of ls below.
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
-
-
+>
+Nothing Happens.
+<
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
-
-
+>
+List options that start with the letter D.
+<
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-----------
-
-
+>
+Desktop/   Documents/ Downloads/
+<
 
 ==========
 3.  Type:
@@ -48,9 +50,10 @@ What happens?  Describe it below.
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
-
-
+>
+drwxr-xr-x   6 student  staff     204 Jan 22  2014 Adobe
+drwxrwx--x   5 student  staff     170 Jan 23  2009 AdobeStockPhotos
+<
 
 ==========
 4.  Type:
@@ -58,8 +61,10 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
-----------
-
+>
+.			Arduino			Microsoft User Data
+..			Avid Projects		Pro Tools
+<
 
 
 ==========
@@ -68,8 +73,9 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
-----------
-
+>
+The ls -a Document command was repeated
+<
 
 
 ==========
@@ -78,8 +84,9 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-----------
-
+>
+The ls -a Document command was repeated
+<
 
 
 ==========
@@ -88,8 +95,9 @@ What command was repeated?
 $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
-----------
-
+>
+It Finished what I had started to type
+<
 
 
 ==========
@@ -98,38 +106,43 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
-----------
-
-
+>
+ls: doesnotexist: No such file or directory
+<
 
 ==========
 9.  What key do I press to go to the previous command?
-----------
-
+>
+The UP Command
+<
 
 
 ==========
 10.  Name two flags that we used in this exercise.
-----------
-
+>
+The a-, -l, -t, -p Flags
+<
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
-
+>
+The Tab
+<
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
-----------
-
+>
+The command we used the most was Dir and The ls 
+<
 
 
 ==========
 13.  Name one argument that we passed to the command.
-----------
-
+>
+Desktop
+<
 
 
 ==========
@@ -138,9 +151,9 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
-----------
-
-
+>
+-bash: foo: command not found
+<
 
 ==========
 15.  Type:
@@ -148,8 +161,9 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
-----------
-
+>
+-bash: foo: command not found
+<
 
 
 ==========
@@ -158,4 +172,6 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+>
+Command is ls, flag is -a, argument is desktop, prompt is $
+<
